@@ -168,7 +168,7 @@
       <AdditionalDependencies>kernel32.lib;user32.lib;msvcrt.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <EntryPointSymbol>main</EntryPointSymbol>
-      <AdditionalOptions>/STUB:stub.exe %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/STUB:stub.exe /EMITPOGOPHASEINFO %(AdditionalOptions)</AdditionalOptions>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
       <MergeSections>.rdata=.text</MergeSections>
@@ -215,7 +215,7 @@
       <AdditionalDependencies>kernel32.lib;user32.lib;msvcrt.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <EntryPointSymbol>main</EntryPointSymbol>
-      <AdditionalOptions>/STUB:stub.exe /MERGE:.pdata=.text %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/STUB:stub.exe /MERGE:.pdata=.text /EMITPOGOPHASEINFO %(AdditionalOptions)</AdditionalOptions>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
       <MergeSections>.rdata=.text</MergeSections>
