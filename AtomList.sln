@@ -1,22 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AtomList", "AtomList.vcxproj", "{0331989A-9D51-497F-BC63-30DEA4D160AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|ARM64 = Release|ARM64
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0331989A-9D51-497F-BC63-30DEA4D160AD}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{0331989A-9D51-497F-BC63-30DEA4D160AD}.Debug|ARM64.Build.0 = Debug|ARM64
 		{0331989A-9D51-497F-BC63-30DEA4D160AD}.Debug|x64.ActiveCfg = Debug|x64
 		{0331989A-9D51-497F-BC63-30DEA4D160AD}.Debug|x64.Build.0 = Debug|x64
 		{0331989A-9D51-497F-BC63-30DEA4D160AD}.Debug|x86.ActiveCfg = Debug|Win32
 		{0331989A-9D51-497F-BC63-30DEA4D160AD}.Debug|x86.Build.0 = Debug|Win32
+		{0331989A-9D51-497F-BC63-30DEA4D160AD}.Release|ARM64.ActiveCfg = Release|ARM64
+		{0331989A-9D51-497F-BC63-30DEA4D160AD}.Release|ARM64.Build.0 = Release|ARM64
 		{0331989A-9D51-497F-BC63-30DEA4D160AD}.Release|x64.ActiveCfg = Release|x64
 		{0331989A-9D51-497F-BC63-30DEA4D160AD}.Release|x64.Build.0 = Release|x64
 		{0331989A-9D51-497F-BC63-30DEA4D160AD}.Release|x86.ActiveCfg = Release|Win32
